@@ -6,7 +6,6 @@ import re
 import operator
 import csv
 
-
 def read_file():
         with open("syslog.log") as log_file:
                 log_entries = log_file.readlines()
